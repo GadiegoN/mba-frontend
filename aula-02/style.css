@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #353434;
+  color: #89f7ff;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 64px;
+}
+
+.text {
+  font-weight: bold;
+}
+
+.amount {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #353434;
+  border-radius: 32px;
+  padding: 4px;
+  width: 240px;
+  color: #89f7ff;
+  font-weight: bold;
+  cursor: pointer;
+}
